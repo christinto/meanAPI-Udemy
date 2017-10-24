@@ -1,4 +1,5 @@
 //goes up a level then into todoModel.js
+//setting up seed data into a mongodb!
 var Todos = require('../models/todoModel');
 
 //express app will pass into this

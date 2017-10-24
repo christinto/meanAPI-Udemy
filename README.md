@@ -1,5 +1,13 @@
-# meanAPI-Udemy
-Udemy full working MEAN Example
+# meanAPI-Udemy Node course 1.. end vids of that
+Udemy full working API MEAN stack Example!
+The example for all examples ;D
+
+Will need:
+mlab to run mongo
+postman to test writing your objects to the mongoDB
+express, install mongo, json parser, 
+
+
 Mongo Express Angular Node ;)..    Found my stack :)
 Great mongoose example as well..
 
@@ -9,13 +17,13 @@ This is an awesome demo, cause rigged up a mongo database and api...
 make config folder
 
 Steps
-npm install express --save-dev
+npm install express --save
 
-npm install ejs --save-dev
+npm install ejs --save
 
-npm install mongoose --save-dev
+npm install mongoose --save
 
-npm install body-parser --save-dev
+npm install body-parser --save
 
 
 setup data base on mlab
@@ -51,3 +59,9 @@ npm install -save mongoose@4.10.8
 or
 npm install mongoose@4.10.8 --save-dev
 
+
+API-Cointree
+to get something similar to unix timestamp in js..
+Math.floor(new Date() / 1000)
+can use this number as nonce, u can use any number as nonce but this is best practie..
+just type it into node console to figure it out..
