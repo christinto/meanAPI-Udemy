@@ -41,6 +41,64 @@ ADD SEED DATA, ala udemy node1 course api section at end..
 config.json in this example
 //wld never write plaintext pw, wld encrypt, but for purposes of this udemy tute.. plaintext
 
+---------------------------------------------------------
+ANGULAR FRONT END PART   ... angular.io is angular2
+USE ANGULAR 2 LIKE NODE1 COURSE
+
+
+Don't even have to do this part.. just copy all contents of public folder from udemy..
+in udemy they copied a zip file from angular.io but I couldn't find it.. same diff
+
+To get started:
+Paste files into public folder (everything within public folder in final udemy node1 vid)
+npm install
+npm install --save-dev @angular/cli@latest
+npm run tsc:w
+that will run in background, once u change ts files will update in js
+now we can start writing our js files!
+
+// not necessary to ng serve --open
+then should be on localhost:3000 !!!
+
+run nodemon app.js from root public folder of app. Node should serve public folder..
+
+tsc-w copies the changes from ts into the js of angular files
+
+app.module.ts pulls api data into angular
+todo.ts is schema of data
+todo.service.ts points to your api endpoint url :) Shoots back todo object 
+
+-----------------------------------------------------------------
+
+old, don't need this part... just for future reference..
+
+npm install -g @angular/cli
+https://angular.io/guide/quickstart
+
+Make a public folder in ur project root
+Generate a new project and skeleton application by running the following commands:
+ng new my-app
+
+Step 3: Serve the application
+
+Go to the project directory eg. cd cointreeapp and launch the server.
+
+cd my-app           cd cointreeapp
+ng serve --open
+
+http://localhost:4200/
+:)
+
+The src folder
+
+Your app lives in the src folder. All Angular components, templates, styles, images, and anything else your app needs go here. Any files outside of this folder are meant to support building your app.
+
+The ng serve command launches the server, watches your files, and rebuilds the app as you make changes to those files.
+
+Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/.
+
+Your app greets you with a message:
+
 
 MONGOOSE SCHEMA'S!.. commonly used 
 Handy as..

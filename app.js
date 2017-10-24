@@ -10,8 +10,8 @@ var apiController = require('./controllers/apiController');
 
 var port = process.env.PORT || 3000;
 
-//sets up public folder as assets
-app.use('/assets', express.static(__dirname + '/public'));
+//sets up public folder as assets if app.use('/assets',.. usuallly just '/public' but this is one extra folder in..
+app.use('/', express.static(__dirname + '/public'));
 
 app.set('view engine', 'ejs');
 
